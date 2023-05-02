@@ -11,7 +11,7 @@ const play = document.getElementById('play');
 const next = document.getElementById('next');
 let songIndex = 0;
 
-// Songs info
+// Songs
 const songs = [{
         title: 'Rush',
         artist: 'Ayra starr',
@@ -47,7 +47,7 @@ const songs = [{
         artist: 'blaqbonez, JAE5',
         coverPath: 'images/back_in_uni.jpg',
         discPath: 'music/BACK_IN_UNI.mp3',
-    },
+    }
 ];
 
 window.addEventListener('load', function() {
